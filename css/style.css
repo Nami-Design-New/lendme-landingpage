@@ -852,13 +852,13 @@ footer .container .col-12 p {
 footer .container .col-12 .links li {
   margin-bottom: 5px;
 }
-footer .container .col-12 .links li a {
+footer .container .col-12 a {
   transition: 0.3s ease-in-out;
   font-weight: 500;
   font-size: 15px;
   color: #000;
 }
-footer .container .col-12 .links li a:hover {
+footer .container .col-12 a:hover {
   color: #007299;
 }
 footer .copy {

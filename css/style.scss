@@ -858,15 +858,15 @@ footer {
     .links {
       li {
         margin-bottom: 5px;
-        a {
-          transition: .3s ease-in-out;
-          font-weight: 500;
-          font-size: 15px;
-          color: #000;
-          &:hover {
-            color: #007299;
-          }
-        }
+      }
+    }
+    a {
+      transition: .3s ease-in-out;
+      font-weight: 500;
+      font-size: 15px;
+      color: #000;
+      &:hover {
+        color: #007299;
       }
     }
   }
