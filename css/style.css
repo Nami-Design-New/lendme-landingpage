@@ -239,6 +239,11 @@ header nav .container .buttons a:hover::after {
     padding-top: 120px;
   }
 }
+@media (max-width: 576px) {
+  .hero-section {
+    padding: 30px 12px 0;
+  }
+}
 .hero-section .underlay {
   position: absolute;
   top: 0;
@@ -360,8 +365,8 @@ header nav .container .buttons a:hover::after {
   height: 100%;
   background-image: url(../images/pattern.jpeg);
   background-repeat: no-repeat;
+  background-size: cover;
   background-position: bottom;
-  background-size: 100%;
   opacity: 0.1;
   z-index: -1;
 }
